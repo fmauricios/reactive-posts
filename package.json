@@ -1,0 +1,12 @@
+{
+  "name": "reactive-posts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git remote add origin https://github.com/fmauricios/reactive-posts.git",
+  "author": "Mauricio Serna Flórez <mauricioserf@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
