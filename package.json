@@ -5,7 +5,12 @@
   "repository": "git remote add origin https://github.com/fmauricios/reactive-posts.git",
   "author": "Mauricio Serna Flórez <mauricioserf@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "bff": "node ./built/server/index.js",
+    "sfs": "serve ./built/statics --port 3001 --cache 0"
+  },
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-router": "next"
@@ -13,9 +18,13 @@
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-preset-es2016": "^6.16.0",
+    "babel-preset-es2017": "^6.16.0",
     "babel-preset-latest-minimal": "^1.1.2",
     "babel-preset-react": "^6.16.0",
     "json-loader": "^0.5.4",
+    "serve": "^2.1.2",
     "webpack": "^1.14.0"
   }
 }
